@@ -9,7 +9,7 @@ docker build -t matt/dynamodb .
 
 To run container:
 ```
-docker run -p <External Port>:8000 -t matt/dynamo
+docker run -p <External Port>:8000 -t matt/dynamodb
 ```
 
 > NOTE: The data will be destroyed when you kill the instance.
